@@ -19,7 +19,7 @@ model User {
   hash  String
 
   firstName String?
-  lastName String?
+  lastName  String?
 }
 
 model Bookmark {
@@ -31,4 +31,3 @@ model Bookmark {
   description String?
   link        String
 }
-
